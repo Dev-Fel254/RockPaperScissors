@@ -7,6 +7,8 @@
 </head>
 <body>
     <script>
+        var humanScore = 0;
+        var computerScore = 0;
         function getComputerChoice(number){
             const randomChoice = Math.floor(Math.random()* number);
             if(randomChoice===1){
@@ -21,7 +23,28 @@
             }
             return randomChoice;
         }
-        getComputerChoice(3);
+       // getComputerChoice(3);
+            //Ask the human for input
+            //Check against the computer choice to see if the human choice is correct.
+            //
+
+            function getHumanChoice(){
+                const humanChoice = prompt("");
+                if(humanChoice === "rock"){
+                    console.log("rock");
+                }else if(humanChoice === "paper"){
+                    console.log("paper");
+                }else if(humanChoice === "scissors"){
+                    console.log("scissors");
+                }else{
+                    console.log("Undefined");
+                }
+            }
+            getHumanChoice();
+
+            function playRound(){
+                
+            }
     </script>
 </body>
 </html>
