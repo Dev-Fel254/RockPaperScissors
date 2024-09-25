@@ -1,1 +1,1 @@
-A console based rock, paper, scissors game
+A DOM based rock, paper, scissors game
